@@ -59,6 +59,12 @@ enum controlpanel_columns
     CONTROLPANEL_COL_COUNT,
 };
 
+enum controlpanel_columns
+{
+    CONTROLPANEL_COL_NAME,
+    CONTROLPANEL_COL_COMMENT,
+};
+
 CControlPanelEnum::CControlPanelEnum()
 {
 }
